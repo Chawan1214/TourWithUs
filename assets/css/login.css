@@ -1,0 +1,86 @@
+
+
+/* login page */
+body{background-image:url(../img/images.jpg);
+    background-size: cover;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    margin-right: auto;
+}
+
+.list2 {
+    margin-left: auto;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.list2 a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.active-menu {
+    background-color: #555;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-box {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.login-box h1 {
+    text-align: center;
+}
+
+.textbox {
+    margin-bottom: 15px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #000000b7;
+    color:aliceblue;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a1a1a146;
+}
+
