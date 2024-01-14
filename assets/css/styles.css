@@ -396,6 +396,19 @@ input {
 }
 
 /*=============== Services ===============*/
+
+
+#service{background-size: cover;
+  background-color: transparent;
+  padding: 60px;
+}
+
+#service h2{
+  margin-top: 1rem;
+}
+
+
+
 .section-title {
   text-align: center;
   margin-bottom: 20px;
@@ -407,6 +420,10 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 30px;
+  row-gap: 30px;
+  background-color: rgba(250, 235, 215, 0.301);
+  border-radius: 2%;
 }
 
 .image-container {
