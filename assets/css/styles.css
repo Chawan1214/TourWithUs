@@ -436,8 +436,9 @@ input {
   width: 50px;
   height: auto;
   border-radius: 8px;
-  /* Optional: Add border-radius for rounded corners */
 }
+/*=============== DESTINATION ===============*/
+
 
 /*=============== EXPERIENCE ===============*/
 .experience__container {
@@ -506,6 +507,7 @@ input {
 
 .video__content {
   position: relative;
+    
 }
 
 .video__button {
@@ -522,21 +524,63 @@ input {
 /*=============== PLACES ===============*/
 
 
-/*=============== SPONSORS ===============*/
-.sponsor__container {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  justify-items: center;
-  row-gap: 3.5rem;
+/*=============== Feedback ===============*/
+#feedback {
+  background: url('assets/img/Erbil.jpg') center/cover;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Adjust the alpha value for transparency */
+  padding: 50px;
+  /* Adjust padding as needed */
 }
 
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.5);
+.feedback1 {
+  max-width: 600px;
+  /* Adjust the max-width as needed */
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Adjust the alpha value for transparency */
+  padding: 20px;
+  /* Adjust padding as needed */
+  border-radius: 10px;
+  /* Optional: Add border-radius for rounded corners */
 }
 
-.sponsor__img {
-  width: 90px;
-  filter: invert(0.7);
-  transition: var(--img-transition);
+.feedback1 h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.inputTextarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  /* Adjust the background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  /* Adjust the background color on hover */
 }
 
 /*=============== FOOTER ===============*/
