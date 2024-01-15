@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-size: cover;
     height: 100vh;
-   background-color: rgb(20, 20, 20);
+   
 }
 
 .main {
@@ -116,6 +116,7 @@ form {
 
 .textbox {
     margin-bottom: 15px;
+    font-size: medium;
 }
 
 .textbox input {
@@ -147,4 +148,43 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* ============================ABOUT US==================== */
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.section__title,
+.section__subtitle {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.about-image h2{
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
