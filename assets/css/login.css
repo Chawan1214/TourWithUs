@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-size: cover;
     height: 100vh;
-   background-image: url(assets/img/Erbil.jpg);
+   background-color: rgb(20, 20, 20);
 }
 
 .main {
@@ -128,7 +128,7 @@ form {
 }
 
 .btn {
-    background-color: #4caf50;
+    background-color: #0f0f0fd2;
     color: #fff;
     padding: 10px 20px;
     border: none;
