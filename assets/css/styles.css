@@ -440,7 +440,30 @@ input {
 }
 /*=============== DESTINATION ===============*/
 
+.index.html{text-align: center;
+}
 
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  text-align: center;
+  margin: 10px;
+  flex: 0 0 calc(25% - 20px);
+  /* 25% width with margins */
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 250px;
+  height: 150px;
+  border-radius: 10%;
+}
 /*=============== EXPERIENCE ===============*/
 .experience__container {
   row-gap: 2.5rem;
@@ -522,67 +545,53 @@ input {
   font-size: 1.2rem;
 }
 
-/*=============== PLACES ===============*/
+/*=============== FEEDBACK ===============*/
 
 
-/*=============== Feedback ===============*/
-#feedback {
-  background: url('assets/img/Erbil.jpg') center/cover;
-  background-color: rgba(255, 255, 255, 0.8);
-  /* Adjust the alpha value for transparency */
-  padding: 50px;
-  /* Adjust padding as needed */
-}
+ form {
+   max-width: 600px;
+   margin: 20px auto;
+   background-color: #ffffff41;
+   padding: 20px;
+   border-radius: 8px;
+   
+ }
 
-.feedback1 {
-  max-width: 600px;
-  /* Adjust the max-width as needed */
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.9);
-  /* Adjust the alpha value for transparency */
-  padding: 20px;
-  /* Adjust padding as needed */
-  border-radius: 10px;
-  /* Optional: Add border-radius for rounded corners */
-}
+ label {
+   display: block;
+   margin-bottom: 8px;
+   font-weight: bold;
+ }
 
-.feedback1 h1 {
-  text-align: center;
-}
+ input,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 16px;
+   box-sizing: border-box;
+   background-color:#cfc7c741 ;
+ }
 
-.form-group {
-  margin-bottom: 20px;
-}
+ textarea {
+   resize: vertical;
+ }
 
-.form-control {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
+ button {
+   background-color: #38afff;
+   color: #fffffff3;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+ }
 
-.inputTextarea {
-  width: 100%;
-  box-sizing: border-box;
-}
+ button:hover {
+   background-color:#0c65a0;
+ }
 
-.wrapper {
-  text-align: center;
-}
 
-.btn {
-  padding: 10px 20px;
-  background-color: #007bff;
-  /* Adjust the background color */
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.btn:hover {
-  background-color: #0056b3;
-  /* Adjust the background color on hover */
-}
 
 /*=============== FOOTER ===============*/
 .footer__container {
