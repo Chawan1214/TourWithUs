@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-size: cover;
     height: 100vh;
-   
+    background-image: url("/assets/img/duhok\ gali\ sherana.jpg");
 }
 
 .main {
@@ -56,7 +56,7 @@ ul {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color:rgba(255, 255, 255, 0.932);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
@@ -101,7 +101,7 @@ form {
 }
 
 .login-box {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.37);
     padding: 20px;
     border-radius: 8px;
     width: 300px;
@@ -138,7 +138,7 @@ form {
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #2987b3;
 }
 
 a {
@@ -151,40 +151,41 @@ a:hover {
 }
 
 /* ============================ABOUT US==================== */
+ #about-us{
+     font-family: 'Open Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-.about-us {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     text-align: center;
+ }
 
-.about-content {
-    max-width: 600px;
-}
+ .image {
+     flex: 1;
+     max-width: 100%;
+     margin-right: 20px;
+ }
 
-.section__title,
-.section__subtitle {
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
+ .textbox {
+     flex: 1;
+     max-width: 600px;
+ }
 
-.about-text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-left: 20px;
-}
+ @media (max-width: 768px) {
+     .container {
+         flex-direction: column;
+     }
 
-.about-image h2{
-    flex-grow: 1;
-    margin-left: 40px;
-}
-
-.about-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
+     .image,
+     .textbox {
+         margin-right: 0;
+         width: 100%;
+     }
+ }
