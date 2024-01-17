@@ -398,6 +398,9 @@ input {
 
 /*=============== Services ===============*/
 
+#virtal:hover{
+  color: #0c65a0;
+}
 
 #service{background-size: cover;
   background-color: transparent;
